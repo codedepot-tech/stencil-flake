@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1630500761,
+        "narHash": "sha256-xjEjZro342lUPd5Z/fFwdAX1dMXXZ3tvPGqMpqs0U20=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "6cc260cfd60f094500b79e279069b499806bf6d8",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "stencil-src": "stencil-src"
+      }
+    },
+    "stencil-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631107432,
+        "narHash": "sha256-6kfUwfETrUEYgYpAf/tCwzHcqT0/tNQn39885/aBF2Q=",
+        "owner": "ionic-team",
+        "repo": "stencil",
+        "rev": "b45e96d049e169da7b7f72ff58eaea2ffcd16496",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ionic-team",
+        "repo": "stencil",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
